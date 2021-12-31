@@ -1,0 +1,46 @@
+.svg-s {
+  background-color: aqua;
+  width: 90%;
+  border-radius: 1em;
+}
+
+.key_white:hover {
+  fill: #ffd200;
+}
+
+.key_black:hover {
+  fill: #f40082
+}
+
+.title_main {
+  color: indigo;
+  text-align: center;
+}
+
+.piano-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.footer > a {
+  text-decoration: none;
+  font-family: cursive;
+  color: #f40082
+}
+
+.footer > a:hover {
+  color: #42f016;
+  font-size: xx-large;
+}
